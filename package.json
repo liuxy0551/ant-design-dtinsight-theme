@@ -13,7 +13,7 @@
         "changelog": "./scripts/changelog.sh",
         "release": "./scripts/release.sh",
         "publish": "./scripts/publish.sh",
-        "deploy": "gh-pages -d dist",
+        "deploy": "npm run build && gh-pages -d dist -r git@github.com:DTStack/ant-design-dtinsight-theme.git",
         "prettier": "npx prettier --check '**/*.{js,jsx,json,ts,tsx}'",
         "prettier:fix": "npx prettier --write '**/*.{js,jsx,json,ts,tsx}'",
         "eslint": "npx eslint . --no-error-on-unmatched-pattern",
