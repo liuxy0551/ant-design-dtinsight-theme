@@ -6043,10 +6043,8 @@ textarea.ant-picker-input > input {
   background-repeat: no-repeat;
   background-position: -10px -10px;
   content: '';
-  -webkit-clip-path: inset(33% 33%);
-          clip-path: inset(33% 33%);
-  -webkit-clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
-          clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
+  clip-path: inset(33% 33%);
+  clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
 }
 .ant-picker-panel-container {
   overflow: hidden;
@@ -7307,10 +7305,8 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   background-repeat: no-repeat;
   background-position: -10px -10px;
   content: '';
-  -webkit-clip-path: inset(33% 33%);
-          clip-path: inset(33% 33%);
-  -webkit-clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
-          clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
+  clip-path: inset(33% 33%);
+  clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
 }
 .ant-dropdown-placement-top > .ant-dropdown-arrow,
 .ant-dropdown-placement-topLeft > .ant-dropdown-arrow,
@@ -8039,8 +8035,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   cursor: help;
   -ms-writing-mode: lr-tb;
       writing-mode: horizontal-tb;
-  -webkit-margin-start: 4px;
-          margin-inline-start: 4px;
+  margin-inline-start: 4px;
 }
 .ant-form-item-label > label::after {
   content: ':';
@@ -13480,8 +13475,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   text-overflow: ellipsis;
 }
 .ant-image-mask-info .anticon {
-  -webkit-margin-end: 4px;
-          margin-inline-end: 4px;
+  margin-inline-end: 4px;
 }
 .ant-image-mask:hover {
   opacity: 1;
@@ -14557,8 +14551,7 @@ textarea.ant-input {
   display: inline-flex;
   width: 90px;
   padding: 0;
-  -webkit-padding-start: 11px;
-          padding-inline-start: 11px;
+  padding-inline-start: 11px;
 }
 .ant-input-number-affix-wrapper::-moz-placeholder {
   color: #B1B4C5;
@@ -14701,8 +14694,7 @@ textarea.ant-input-number-affix-wrapper {
   pointer-events: none;
 }
 .ant-input-number-prefix {
-  -webkit-margin-end: 4px;
-          margin-inline-end: 4px;
+  margin-inline-end: 4px;
 }
 .ant-input-number-suffix {
   position: absolute;
@@ -18619,10 +18611,8 @@ textarea.ant-pagination-options-quick-jumper input {
   background-repeat: no-repeat;
   background-position: -10px -10px;
   content: '';
-  -webkit-clip-path: inset(33% 33%);
-          clip-path: inset(33% 33%);
-  -webkit-clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
-          clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
+  clip-path: inset(33% 33%);
+  clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
 }
 .ant-popover-placement-top .ant-popover-arrow,
 .ant-popover-placement-topLeft .ant-popover-arrow,
@@ -19791,12 +19781,9 @@ span.ant-radio + * {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-margin-end: 5.6px;
-          margin-inline-end: 5.6px;
-  -webkit-padding-start: 8px;
-          padding-inline-start: 8px;
-  -webkit-padding-end: 4px;
-          padding-inline-end: 4px;
+  margin-inline-end: 5.6px;
+  padding-inline-start: 8px;
+  padding-inline-end: 4px;
 }
 .ant-select-disabled.ant-select-multiple .ant-select-selection-item {
   color: #bfbfbf;
@@ -19846,14 +19833,12 @@ span.ant-radio + * {
   color: rgba(0, 0, 0, 0.75);
 }
 .ant-select-multiple .ant-select-selection-overflow-item + .ant-select-selection-overflow-item .ant-select-selection-search {
-  -webkit-margin-start: 0;
-          margin-inline-start: 0;
+  margin-inline-start: 0;
 }
 .ant-select-multiple .ant-select-selection-search {
   position: relative;
   max-width: 100%;
-  -webkit-margin-start: 5.4px;
-          margin-inline-start: 5.4px;
+  margin-inline-start: 5.4px;
 }
 .ant-select-multiple .ant-select-selection-search-input,
 .ant-select-multiple .ant-select-selection-search-mirror {
@@ -19918,8 +19903,7 @@ span.ant-radio + * {
   left: 7px;
 }
 .ant-select-multiple.ant-select-sm .ant-select-selection-search {
-  -webkit-margin-start: 3px;
-          margin-inline-start: 3px;
+  margin-inline-start: 3px;
 }
 .ant-select-multiple.ant-select-lg .ant-select-selection-item {
   height: 32px;
@@ -20113,8 +20097,7 @@ span.ant-radio + * {
   cursor: not-allowed;
 }
 .ant-select-arrow > *:not(:last-child) {
-  -webkit-margin-end: 8px;
-          margin-inline-end: 8px;
+  margin-inline-end: 8px;
 }
 .ant-select-clear {
   position: absolute;
@@ -21988,8 +21971,7 @@ span.ant-radio + * {
   margin: -14.25px -8px -14.25px 40px;
 }
 .ant-table.ant-table-middle .ant-table-selection-column {
-  -webkit-padding-start: 2px;
-          padding-inline-start: 2px;
+  padding-inline-start: 2px;
 }
 .ant-table.ant-table-small {
   font-size: 12px;
@@ -22012,8 +21994,7 @@ span.ant-radio + * {
   margin: -9.5px -8px -9.5px 40px;
 }
 .ant-table.ant-table-small .ant-table-selection-column {
-  -webkit-padding-start: 2px;
-          padding-inline-start: 2px;
+  padding-inline-start: 2px;
 }
 .ant-table.ant-table-bordered > .ant-table-title {
   border: 1px solid #f0f0f0;
@@ -22476,10 +22457,8 @@ table tr th.ant-table-selection-column::after {
   z-index: 1;
   cursor: pointer;
   transition: all 0.3s;
-  -webkit-margin-start: 100%;
-          margin-inline-start: 100%;
-  -webkit-padding-start: 4px;
-          padding-inline-start: 4px;
+  margin-inline-start: 100%;
+  padding-inline-start: 4px;
 }
 .ant-table-selection-extra .anticon {
   color: #bfbfbf;
@@ -23987,10 +23966,8 @@ tr.ant-table-expanded-row .ant-descriptions-view table {
   background-repeat: no-repeat;
   background-position: -10px -10px;
   content: '';
-  -webkit-clip-path: inset(33% 33%);
-          clip-path: inset(33% 33%);
-  -webkit-clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
-          clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
+  clip-path: inset(33% 33%);
+  clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
 }
 .ant-tooltip-placement-top .ant-tooltip-arrow,
 .ant-tooltip-placement-topLeft .ant-tooltip-arrow,
@@ -27904,8 +27881,7 @@ li.ant-picker-panel-select-option-selected:hover {
   margin-left: 9px;
 }
 .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary) {
-  -webkit-margin-end: -1px;
-          margin-inline-end: -1px;
+  margin-inline-end: -1px;
   color: #B1B4C5;
   border: solid 1px #D8DAE1;
 }
@@ -28283,8 +28259,7 @@ li.ant-picker-panel-select-option-selected:hover {
   display: inline-block;
   width: 6px;
   height: 6px;
-  -webkit-clip-path: polygon(0 6px, 6px 6px, 6px 0);
-          clip-path: polygon(0 6px, 6px 6px, 6px 0);
+  clip-path: polygon(0 6px, 6px 6px, 6px 0);
   background: #8B8FA8;
   cursor: pointer;
 }
@@ -28982,7 +28957,6 @@ ul.ant-pagination {
 }
 .ant-select-multiple .ant-select-selection-item {
   height: 24px;
-  -webkit-margin-end: 4px;
   margin-inline-end: 4px;
   align-items: center;
   margin-bottom: 0;
