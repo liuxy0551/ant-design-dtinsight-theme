@@ -394,8 +394,10 @@ textarea.ant-picker-input > input {
   background-repeat: no-repeat;
   background-position: -10px -10px;
   content: '';
-  clip-path: inset(33% 33%);
-  clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
+  -webkit-clip-path: inset(33% 33%);
+          clip-path: inset(33% 33%);
+  -webkit-clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
+          clip-path: path('M 9.849242404917499 24.091883092036785 A 5 5 0 0 1 13.384776310850237 22.627416997969522 L 20.627416997969522 22.627416997969522 A 2 2 0 0 0 22.627416997969522 20.627416997969522 L 22.627416997969522 13.384776310850237 A 5 5 0 0 1 24.091883092036785 9.849242404917499 L 23.091883092036785 9.849242404917499 L 9.849242404917499 23.091883092036785 Z');
 }
 .ant-picker-panel-container {
   overflow: hidden;
@@ -5136,9 +5138,12 @@ span.ant-radio + * {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  margin-inline-end: 4px;
-  padding-inline-start: 8px;
-  padding-inline-end: 4px;
+  -webkit-margin-end: 4px;
+          margin-inline-end: 4px;
+  -webkit-padding-start: 8px;
+          padding-inline-start: 8px;
+  -webkit-padding-end: 4px;
+          padding-inline-end: 4px;
 }
 .ant-select-disabled.ant-select-multiple .ant-select-selection-item {
   color: #bfbfbf;
@@ -5188,12 +5193,14 @@ span.ant-radio + * {
   color: rgba(0, 0, 0, 0.75);
 }
 .ant-select-multiple .ant-select-selection-overflow-item + .ant-select-selection-overflow-item .ant-select-selection-search {
-  margin-inline-start: 0;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
 }
 .ant-select-multiple .ant-select-selection-search {
   position: relative;
   max-width: 100%;
-  margin-inline-start: 7px;
+  -webkit-margin-start: 7px;
+          margin-inline-start: 7px;
 }
 .ant-select-multiple .ant-select-selection-search-input,
 .ant-select-multiple .ant-select-selection-search-mirror {
@@ -5258,7 +5265,8 @@ span.ant-radio + * {
   left: 7px;
 }
 .ant-select-multiple.ant-select-sm .ant-select-selection-search {
-  margin-inline-start: 3px;
+  -webkit-margin-start: 3px;
+          margin-inline-start: 3px;
 }
 .ant-select-multiple.ant-select-lg .ant-select-selection-item {
   height: 32px;
@@ -5444,7 +5452,8 @@ span.ant-radio + * {
   cursor: not-allowed;
 }
 .ant-select-arrow > *:not(:last-child) {
-  margin-inline-end: 8px;
+  -webkit-margin-end: 8px;
+          margin-inline-end: 8px;
 }
 .ant-select-clear {
   position: absolute;
