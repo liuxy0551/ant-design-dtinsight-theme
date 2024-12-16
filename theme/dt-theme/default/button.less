@@ -1,10 +1,37 @@
 @import "../const.less";
 
+.ant-btn > .anticon {
+    line-height: 0;
+}
+
 .ant-btn {
     line-height: 100%;
     box-shadow: unset;
+    display: inline-flex;
+    align-items: center;
     .anticon-minus, .anticon-plus {
         font-size: 13px;
+    }
+    svg {
+        color: inherit;
+        font-size: 16px;
+    }
+}
+
+.ant-btn.ant-btn-lg {
+    font-size: 16px;
+    svg {
+        font-size: 18px;
+    }
+}
+
+.ant-btn.ant-btn-sm {
+    border-radius: 2px;
+    .anticon-search {
+        margin-left: 0;
+    }
+    svg {
+        font-size: 12px;
     }
 }
 
@@ -212,13 +239,6 @@
         .anticon + span {
             margin-left: 4px;
         }
-    }
-}
-
-.ant-btn.ant-btn-sm {
-    border-radius: 2px;
-    .anticon-search {
-        margin-left: 0;
     }
 }
 
