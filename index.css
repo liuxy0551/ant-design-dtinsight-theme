@@ -1900,7 +1900,16 @@ pre[class*="language-"] {
 .code-box-demo .icon-demo-content .anticon {
   font-size: 26px;
 }
+.code-box-demo .icon-demo-content .title-input {
+  display: flex;
+  align-items: center;
+}
+.code-box-demo .icon-demo-content .title-input .ant-input {
+  width: 300px;
+  margin-left: 16px;
+}
 .code-box-demo .icon-demo-content .icon-box {
+  margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
 }
