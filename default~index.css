@@ -28611,7 +28611,7 @@ li.ant-picker-panel-select-option-selected:hover {
   width: 48px;
 }
 .ant-modal-close-x .anticon {
-  font-size: 18px;
+  font-size: 16px;
 }
 .ant-modal-close-x:hover {
   color: #64698B;
@@ -28678,7 +28678,7 @@ li.ant-picker-panel-select-option-selected:hover {
 }
 .ant-alert > .ant-alert-close-icon {
   align-self: flex-start;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 .ant-alert-success {
   background-color: #E7FBF7;
@@ -28760,9 +28760,7 @@ li.ant-picker-panel-select-option-selected:hover {
 }
 .ant-notification-notice-with-icon .ant-notification-notice-description {
   color: #8B8FA8;
-  word-break: break-all;
   margin-left: 28px;
-  word-wrap: break-word;
 }
 .ant-pagination {
   color: #3D446E;
@@ -30465,8 +30463,11 @@ span.ant-tree-switcher.ant-tree-switcher_open {
 .ant-upload-list-item-card-actions .ant-btn-icon-only.ant-btn-sm > * {
   font-size: 16px;
 }
+.ant-alert > .ant-alert-close-icon > .anticon-close {
+  font-size: 16px;
+}
 .ant-alert.ant-alert-no-icon {
-  padding: 12px 16px;
+  padding: 10px 16px;
 }
 .ant-alert-icon {
   top: 13px;
